@@ -222,7 +222,5 @@ confusion.matrix.test
 
 precision.test=sum(diag(confusion.matrix.test))/nrow(data2)
 precision.test
-
-#BLABLABLABLAVLVLVLLVVLLVFLVLFVL
 ```
 
