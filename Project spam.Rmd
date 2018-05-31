@@ -47,6 +47,11 @@ naive_bayes(data,Spam)
 ```
 
 ```{r}
+#Use Random forest to get an accurate and stable position
+# http://trevorstephens.com/kaggle-titanic-tutorial/r-part-5-random-forests/
+```
+
+```{r}
 #Plot the distributions of the attributes (check for normality and maybe remove outliers)
 
 p <- ggplot(data, aes(Capitals)) + geom_histogram(aes(y=..density..), colour="black", fill="white") + geom_density(alpha=.2, fill="#FF6666")
